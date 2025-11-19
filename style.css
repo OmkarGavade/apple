@@ -1,0 +1,67 @@
+@font-face {
+    font-family: apple;
+    src: url(./sf-pro-text_regular.woff2);
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: apple;
+    font-weight: 100;
+}
+
+#nav{
+    height: 50px;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 13px;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#center{
+    height: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    background-image: url(./hero_iphone_17_pro__bknyzxfk2agi_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#btn1{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+}
+
+#btn2{
+    background-color: transparent;
+    color: royalblue;
+    padding: 10px 30px;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+}
+
+#btn2:hover{
+    background-color: royalblue;
+    color: white;
+    transform: scale(1.05);
+}
+
+#btn{
+    padding: 20px;
+}
